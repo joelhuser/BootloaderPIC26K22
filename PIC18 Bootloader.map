@@ -1,0 +1,145 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Jun 04 12:15:22 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000000
+                   .org_2       code   0x00fd00    program   0x0002d2
+.config_300001_PIC18 BOOTLOADER.O    romdata   0x300001    program   0x000001
+.config_300002_PIC18 BOOTLOADER.O    romdata   0x300002    program   0x000001
+.config_300003_PIC18 BOOTLOADER.O    romdata   0x300003    program   0x000001
+.config_300005_PIC18 BOOTLOADER.O    romdata   0x300005    program   0x000001
+.config_300006_PIC18 BOOTLOADER.O    romdata   0x300006    program   0x000001
+.config_300008_PIC18 BOOTLOADER.O    romdata   0x300008    program   0x000001
+.config_300009_PIC18 BOOTLOADER.O    romdata   0x300009    program   0x000001
+.config_30000A_PIC18 BOOTLOADER.O    romdata   0x30000a    program   0x000001
+.config_30000B_PIC18 BOOTLOADER.O    romdata   0x30000b    program   0x000001
+.config_30000C_PIC18 BOOTLOADER.O    romdata   0x30000c    program   0x000001
+.config_30000D_PIC18 BOOTLOADER.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x00fd00    0x00ffd1      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            733 out of 66584 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AddCrc   0x00fde6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         AppendDataBuffer   0x00fd70    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            BootInfoBlock   0x00fe08    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         BootInfoBlockEnd   0x00fe12    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             BootloadMode   0x00fd0c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+     BootloaderBreakCheck   0x00fd02    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           BootloaderInfo   0x00fe12    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          BootloaderStart   0x00fd00    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             CheckCommand   0x00fdb6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               DoAutoBaud   0x00fd2c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         EraseAddressOkay   0x00fea6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+ EraseEndFlashAddressOkay   0x00fe7e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               EraseFlash   0x00fe68    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            GotoAppVector   0x00fd08    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          JUMPTABLE_BEGIN   0x00fdbc    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+     LoadHoldingRegisters   0x00ff06    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           NextEraseBlock   0x00feac    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    NoETX   0x00fd68    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    NoSTX   0x00fd62    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               ReadEeprom   0x00ff1e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           ReadEepromLoop   0x00ff20    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                ReadFlash   0x00fe24    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             ReadHostByte   0x00ffa6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          ReceiveDataLoop   0x00fd5c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            RetryAutoBaud   0x00fd32    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          SendAcknowledge   0x00ff6e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             SendChecksum   0x00ff76    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                  SendETX   0x00ff7e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           SendEscapeByte   0x00ff84    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             SendHostByte   0x00ff9c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              StartOfLine   0x00fd54    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               StartWrite   0x00ffc2    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           TableWriteWREG   0x00ffbe    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              VerifyFlash   0x00fe3a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          VerifyPacketCRC   0x00fd76    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+      VerifyPacketCrcLoop   0x00fd82    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WaitForHostByte   0x00ffaa    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+       WaitForHostCommand   0x00fd4e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WaitForRise   0x00fdd6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WaitForRiseLoop   0x00fdd8    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    WrDLE   0x00ff96    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                   WrNext   0x00ff9a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         WriteAddressOkay   0x00ff02    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WriteConfig   0x00ff5a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WriteConfigLoop   0x00ff60    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WriteEeprom   0x00ff3a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WriteEepromLoop   0x00ff3e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+ WriteEndFlashAddressOkay   0x00feda    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               WriteFlash   0x00fec4    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                     WtSR   0x00fde0    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+          BootloaderStart   0x00fd00    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+     BootloaderBreakCheck   0x00fd02    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            GotoAppVector   0x00fd08    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             BootloadMode   0x00fd0c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               DoAutoBaud   0x00fd2c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            RetryAutoBaud   0x00fd32    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+       WaitForHostCommand   0x00fd4e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              StartOfLine   0x00fd54    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          ReceiveDataLoop   0x00fd5c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    NoSTX   0x00fd62    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    NoETX   0x00fd68    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         AppendDataBuffer   0x00fd70    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          VerifyPacketCRC   0x00fd76    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+      VerifyPacketCrcLoop   0x00fd82    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             CheckCommand   0x00fdb6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          JUMPTABLE_BEGIN   0x00fdbc    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WaitForRise   0x00fdd6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WaitForRiseLoop   0x00fdd8    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                     WtSR   0x00fde0    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                   AddCrc   0x00fde6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+            BootInfoBlock   0x00fe08    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         BootInfoBlockEnd   0x00fe12    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           BootloaderInfo   0x00fe12    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                ReadFlash   0x00fe24    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              VerifyFlash   0x00fe3a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               EraseFlash   0x00fe68    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+ EraseEndFlashAddressOkay   0x00fe7e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         EraseAddressOkay   0x00fea6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           NextEraseBlock   0x00feac    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               WriteFlash   0x00fec4    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+ WriteEndFlashAddressOkay   0x00feda    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+         WriteAddressOkay   0x00ff02    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+     LoadHoldingRegisters   0x00ff06    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               ReadEeprom   0x00ff1e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           ReadEepromLoop   0x00ff20    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WriteEeprom   0x00ff3a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WriteEepromLoop   0x00ff3e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+              WriteConfig   0x00ff5a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WriteConfigLoop   0x00ff60    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          SendAcknowledge   0x00ff6e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             SendChecksum   0x00ff76    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                  SendETX   0x00ff7e    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           SendEscapeByte   0x00ff84    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                    WrDLE   0x00ff96    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+                   WrNext   0x00ff9a    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             SendHostByte   0x00ff9c    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+             ReadHostByte   0x00ffa6    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+          WaitForHostByte   0x00ffaa    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+           TableWriteWREG   0x00ffbe    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+               StartWrite   0x00ffc2    program     static E:\Temp\BootloaderPIC26K22\PIC18 Bootloader.asm
+
+
